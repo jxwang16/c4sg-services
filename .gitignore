@@ -1,12 +1,45 @@
-# Eclipse
-.metadata\
-RemoteSystemsTempFiles
-npm-debug.log
+# Java
+*.class
+*.jar
+*.war
+*.ear
+bin
+.mtj.tmp/
 
-.idea
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Gradle
+log/
+target/
+logs/
+.gradle/
+build/
+out/
+
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
 .classpath
 .project
-.settings
-*.iml
+.settings/
 
-*~
+# STS
+.apt_generated
+.factorypath
+.settings
+.springBeans
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+bin/
